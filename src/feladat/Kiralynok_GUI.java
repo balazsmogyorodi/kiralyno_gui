@@ -138,7 +138,7 @@ public class Kiralynok_GUI extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         this.t = new Tabla();
-        t.elhelyez(8);
+        t.elhelyez(n);
         jTextArea1.setText(this.t.tabla());
         sorokSzamolasa();
         oszlopokSzamolasa();
